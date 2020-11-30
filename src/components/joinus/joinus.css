@@ -1,0 +1,58 @@
+.joinus--container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 74px;
+  box-shadow: 0px 8px 16px rgba(17, 17, 17, 0.04);
+  border-radius: 32px;
+  background: #fff;
+  margin-right: 70px;
+}
+
+.crox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.crox img {
+  cursor: pointer;
+}
+.joinus--heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 34px;
+  /* or 106% */
+  margin: 0;
+  text-align: center;
+  letter-spacing: 1px;
+
+  /* Grayscale / Title-Active */
+
+  color: #14142b;
+}
+.joinus__text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 38px;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 0.75px;
+
+  color: #14142b;
+}
+.joinus--tags {
+  display: flex;
+  margin-top: 51px;
+}
+.arroButton {
+  display: flex;
+  align-items: center;
+  background: #5f2eea;
+  border-radius: 16px;
+  padding: 26px 51px;
+  margin-left: 24px;
+  cursor: pointer;
+}
